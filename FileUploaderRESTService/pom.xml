@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>File Uploader Rest Service</name>
-	<url>https://javatutorial.com</url>
+	<url>https://javatutorial.net</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
