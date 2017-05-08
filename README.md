@@ -1,2 +1,2 @@
 # Tutorials
-Source code for tutorials listed on javatutorial.net
+Source code for tutorials listed on https://javatutorial.net
