@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+		xmlns:h="http://java.sun.com/jsf/html" >
+<h:head>
+	<title>Private Page</title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:commandLink action="#{loginView.logout}" value="Logout" />
+	</h:form>
+	<h3>Hello #{loginView.authenticatedUser.name}</h3>
+	<p>Your user id is #{loginView.authenticatedUser.email}</p>
+	<p>This is a private page, which requires login to access.</p>
+</h:body>
+</html>
